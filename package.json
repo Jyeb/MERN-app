@@ -1,0 +1,29 @@
+{
+  "name": "mern_shopping_list",
+  "version": "1.0.0",
+  "description": "shopping list created with the mern stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jyeb/MERN-app.git"
+  },
+  "author": "Jye Bussa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jyeb/MERN-app/issues"
+  },
+  "homepage": "https://github.com/Jyeb/MERN-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^4.13.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
